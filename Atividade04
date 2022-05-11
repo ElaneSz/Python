@@ -1,12 +1,7 @@
-minutos = int
-horas = int
-def s(horas):
-        horas = segundos/3600
-        return horas
-def x(minutos):
-        minutos = segundos/60
-        return minutos
-segundos = int(input("Digite o temo de duração de uma fabricação em segundos: \n"))
-print ("Segundos: ",segundos)
-print ("Minutos: ",x(minutos))
-print ("Horas: ",s(horas))
+def transforma(seg):
+    m = int (seg/60)
+    seg = seg % 60
+    hora = int (m/60)
+    m = m % 60
+    print (hora, ":", m, ":", seg)
+transforma (3750)
