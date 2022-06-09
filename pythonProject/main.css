@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    border: 2px solid red;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+form input {
+    width: 100%;
+}
+
+form > div {
+    margin-bottom: 20px;
+    /* border: 1px solid; */
+}
+
+form > div:last-of-type {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
