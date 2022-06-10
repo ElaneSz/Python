@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    border: 2px solid red;
+    border: 2px solid #380B61;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ body {
 }
 
 form {
-    border: 2px solid red;
+    border: 2px solid #380B61;
     padding: 15px;
     border-radius: 5px;
 }
