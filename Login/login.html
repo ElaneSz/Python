@@ -3,26 +3,30 @@
 
 <head>
     <meta charset='utf-8'>
-    <title>Página Inicial</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <title>Página de Login</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
 </head>
 
 <body>
     <form action="exemplo.py" method="post">
         <div>
             <img src="Medusa.png" alt="Medusa" width="300" height="280"/>
-            <h2 id="titulo">Pequena Vênus</h2>
+            <h2 id="titulo">Medusa</h2>
         </div>
         <div>
             <label for="nome">Usuário</label>
-            <input type="text" name="nome" id="nome">
+            <input type="text" name="nome" id="nome" required>
         </div>
         <div>
             <label for="senha">Senha</label>
-            <input type="password" name="senha" id="senha">
+            <input type="password" name="senha" id="senha" required>
         </div>
         <div>
             <button>Enviar</button>
+        </div>
+        <div >
+            <label>Não é cadastrado?</label>
+            <a href="XXX" class="Cadastro">Clique aqui!</a>
         </div>
     </form>
 </body>
