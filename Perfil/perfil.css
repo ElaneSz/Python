@@ -1,0 +1,32 @@
+* {
+    background-color: #F0F8FF;
+}
+
+div.topo {
+   border: 1px solid red; 
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+}
+
+div.topo > div {
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.topo > div > *{
+    border: 1px solid green;
+    /* margin: 0 0 100px 0; */
+}
+
+form > h1{
+    text-align: center;
+}
+
+div.base > div{
+    border: 1px solid rgb(255, 0, 187);
+
+}
