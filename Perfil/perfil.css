@@ -1,32 +1,88 @@
 * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #59429d;
     background-color: #F0F8FF;
-}
-
-div.topo {
-   border: 1px solid red; 
-   display: flex;
-   justify-content: center;
-   /* align-items: center; */
-}
-
-div.topo > div {
-    border: 1px solid purple;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+} 
+
+.conteudo{
+    border: 2px solid #380B61;
+    padding: 15px;
+    border-radius: 5px;
+    height: 70%;
+    width: 50%;
+}
+
+.bloco{
+    max-width: 800px;
+	margin: 0 auto;
+    display: flex;
     justify-content: center;
 }
 
-div.topo > div > *{
-    border: 1px solid green;
-    /* margin: 0 0 100px 0; */
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagem {
+    height: 72px;
+    margin: 5% 20% 10% 5%;
 }
 
-form > h1{
+.informacoes > h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20% 10% 10% 0%;
+    width: 100%;
+}
+
+.informacoes > h4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% 10% 10% 0%;
+    width: 100%;
+}
+
+.posts1, .posts2{
+    max-width: 400px;
+	margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+}
+
+.item{
+	display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+    margin: 5% 5% 5% 5%;
+    height: 60%;
+    width: 60%;
     text-align: center;
+    border-radius: 5px;
+    background: #59429d;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 
-div.base > div{
-    border: 1px solid rgb(255, 0, 187);
-
+.item:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
 }
