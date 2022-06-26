@@ -57,27 +57,30 @@ body {
     width: 100%;
 }
 
-.posts1, .posts2{
-    background-color: #c2b8e4;
-    max-width: 400px;
+.posts{
+    background-color: #c8c0e4;
+    max-width: 600px;
 	margin: 0 auto;
     display: flex;
     justify-content: center;
-    height: 20%;
+    height: 50%;
     width: 100%;
+    border-radius: 5px;
+    border-style: double;
 }
 
 
 
 .item{
+    
 	display: flex;
     flex-flow: column wrap;
     align-items: center;
     gap: 100px;
     justify-content: center;
-    margin: 5% 5% 5% 5%;
+    margin: 10% 5% 10% 15%;
     height: 60%;
-    width: 60%;
+    width: 70%;
     text-align: center;
     border-radius: 5px;
     background: #59429d;
@@ -91,4 +94,12 @@ body {
     background: #CCBBFF;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: none;
+}
+
+.grid {
+	display: grid;
+}
+
+.posts{
+	grid-template-columns: 200px 200px 200px;
 }
